@@ -1,3 +1,7 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-
 The working directory contains all files and folders associated with that git repository, however the staging area is a "temporary" collection of the files and folders which are associated with the next logical commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+git add {all,files,which,are,logically,grouped,in,this,commit}
+git commit -m "fix or feature or cleanup"
+rinse && repeat
