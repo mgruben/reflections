@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	By showing only the lines which had changed (diff, not so much diff -u),
+	diff cut out what was unnecessary and showed only what I was looking for
+	(that is, what had changed).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It creates institutional memory and allows for the meta-analysis of the
+    process you're using to create code.  Without this awareness, you can't
+    be aware of ways to improve your process.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    With manual commits, I can specify what significant changes are, which is
+    a pro as it separates significant from insignificant.  However, with manual
+    commits, I have to know what's significant, which is a huge con as sometimes
+    I'm not aware that I'm about to break something.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs is for documents, and documents largely aren't interrelated
+    (but actually, a lot of them are a lot of the time).  Git assumes that files
+    are interrelated (html and css, .jar and libraries, etc.) and so has
+    structured its commits around collections of files rather than individual files
+    themselves.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	A git log should read like a stream-of-consciousness narrative; not necessarily
+	gripping or well-developed, but coherent from step to step.
+	A git diff should read like an overbearing mother's assessment of everything
+	that's wrong with your life, how it falls short of what some other, better sibling
+	is doing, and exactly where you went wrong.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Sure my changes might break something, but I've banked my progress through logical
+    commits, and can always go back to a time when the sky was made of gumdrops and
+    happiness, rather than licorice and sadness.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Coding a database-enabled flipped classroom website for high schoolers to gain
+    college credit over the summer
