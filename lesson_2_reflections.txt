@@ -14,3 +14,6 @@ By diagramming branches as a departure from the master "alignment," a clear conc
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Yeah, I'm not really clear on that, especially since code continues developing after the branch.  It's supposed to bring together fixes without breaking code.  It's represented as a "merge" because the logical development paths reconnect at a later point in time.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+The only pro seems to be that Git smushes code together for you, which I guess was difficult to do manually?
