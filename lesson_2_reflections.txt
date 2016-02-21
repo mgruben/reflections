@@ -11,3 +11,6 @@ Branches denote design architecture differences, perhaps goal differences, or ot
 
 How do the diagrams help you visualize the branch structure?
 By diagramming branches as a departure from the master "alignment," a clear conceptual analogy is drawn to the departure during the development process. Perhaps these branches meet again, or perhaps not, but they are not initially the same logical path.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Yeah, I'm not really clear on that, especially since code continues developing after the branch.  It's supposed to bring together fixes without breaking code.  It's represented as a "merge" because the logical development paths reconnect at a later point in time.
