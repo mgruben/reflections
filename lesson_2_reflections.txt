@@ -5,3 +5,6 @@ How can you use the staging area to make sure you have one commit per logical ch
 git add {all,files,which,are,logically,grouped,in,this,commit}
 git commit -m "fix or feature or cleanup"
 rinse && repeat
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches denote design architecture differences, perhaps goal differences, or otherwise just philosophical differences which are not easily thought of as steps along the same linear path.  Branches help you to keep track of these divides without forcing you to conceptualize each change as belonging to the same narrative arc.
