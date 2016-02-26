@@ -1,1 +1,4 @@
-
+When would you want to use a remote repository rather than keeping all your work local?
+The git philosophy is to save (somewhere) whenever a logical quantum of progress has been made.
+This philosophy is functional locally, certainly, but storing things only in one place raises the possibility of a hardware or software failure erasing all progress.
+Outside of disaster recovery, using a remote repository allows your project to progress agnostically of any single computer, user, development team, nationality, etc.
