@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 The git philosophy is to save (somewhere) whenever a logical quantum of progress has been made.
 This philosophy is functional locally, certainly, but storing things only in one place raises the possibility of a hardware or software failure erasing all progress.
 Outside of disaster recovery, using a remote repository allows your project to progress agnostically of any single computer, user, development team, nationality, etc.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+For one, you may be in the middle of updating the branch yourself, and an automatic pull would really frustrate that process.  Granted, you should branch off from Master if this is the case, but that's not always feasible.
+For another, the remote repo will certainly, even if claimed stable, not have been in use as long as an older (e.g. your local) repo.  That is, if stability is your goal, you may want to let development and bug testing continue on the main branch while you sit back with a known stable branch.  Again, it is common to branch off known-stable releases, but identifying which versions are "stable" is often a matter of aesthetics.
+Finally, someone may have purposely or inadvertently broken the branch with their latest commit, and you would want the opportunity to review the commit before pulling to ensure that this isn't the case.
